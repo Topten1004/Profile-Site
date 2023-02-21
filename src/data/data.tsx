@@ -414,7 +414,7 @@ export const experience: TimelineItem[] = [
     content: (
       <ul className="list-disc">
         <li>
-        Developed frontend using Angular, HTML/CSS/JavaScript and processed request and response with using ajax.
+        Developed frontend using HTML/CSS/JavaScript and processed request and response with using Ajax.
         </li>
         <li>
         Used code-first design pattern and EF6.0, Firebase, MS SQL Server for database management.
@@ -444,7 +444,7 @@ export const experience: TimelineItem[] = [
     content: (
       <ul className="list-disc">
         <li>
-        Developed frontend using Angular, HTML/CSS/JavaScript and processed request and response with using ajax.
+        Developed frontend using HTML/CSS/JavaScript and processed request and response with using Ajax.
         </li>
         <li>
         Choosed MS SQL server and Entity framework core for database control.
