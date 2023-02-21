@@ -1,6 +1,7 @@
 {
   "name": "react-resume-template",
   "version": "2.0.0",
+  "homepage": "https://topten1004.github.io/Profile-Site",
   "private": true,
   "scripts": {
     "build": "yarn compile && yarn next build",
@@ -19,7 +20,8 @@
     "next": "^12.1.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "ts-pattern": "^4.0.3"
+    "ts-pattern": "^4.0.3",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^12.1.0",

@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Rostyslav Resume',
-  description: "This is my Java Full Stack Resume",
+  title: 'David Riley Resume',
+  description: "This is my .Net Full Stack Resume",
 };
 
 /**
@@ -69,7 +69,7 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm  Rostyslav.`,
+  name: `I'm  David Riley.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -101,18 +101,20 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Senior Java Full Stack Developer with over 6+ years of experience in software design, development, implementation and
-  software engineering which also includes integration, maintenance and testing of various client/server, and web
-  applications.`,
-  description1: `Skilled and experienced in Core Java, Spring (and frameworks), Hibernate with JPA, Spring mvc, Spring Data, Rest
-  services, JSON, Junit 4.0, mockito framework.In-depth knowledge of patterns and practices, including Object Oriented
-  Programming, MVC, REST architecture, Agile, Test Driven Development (TDD) and Continuous integration. Strong working
-  knowledge on modern build tools and continuous integration framework.`,
+  description: `8+ years of experience in Software Application Development.
+  Application development using with C#, WCF, WPF and Winforms.
+  Expert at Frontend frameworks such as React, Angular and Vue.JS.
+  Good Knowledge to web Technologies: ASP.NET, Node.JS, ASP.NET core.
+  Experience with Trello, Github/GitLab, Azure DevOps, Agile and CI/CD.`,
+  description1: ` Ability to learn & develop using new technologies quickly.
+  Highly motivated, quick learning team player with good technical skills.
+  Working individually and contributing with in team.
+  Coordinating with the team and with client.`,
   aboutItems: [
-    { label: 'Location', text: 'Warsaw, Poland', Icon: MapIcon },
-    { label: 'Age', text: '28', Icon: CalendarIcon },
-    { label: 'Interests', text: 'NFT, Game development', Icon: SparklesIcon },
-    { label: 'Study', text: 'University of Warsaw', Icon: AcademicCapIcon },
+    {label: 'Location', text: 'Weatherford, Texas', Icon: MapIcon },
+    {label: 'Age', text: '37', Icon: CalendarIcon },
+    {label: 'Interests', text: 'Soccer, Gamer', Icon: SparklesIcon },
+    {label: 'Study', text: 'Texas State University', Icon: AcademicCapIcon },
   ],
 };
 
@@ -124,7 +126,7 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Java/Spring Boot',
+        name: 'Asp.Net/Asp.Net Core/Asp.Net MVC/Asp.Net Core Web API',
         level: 10,
       },
       {
@@ -166,32 +168,40 @@ export const skills: SkillGroup[] = [
     name: 'Frontend development',
     skills: [
       {
-        name: 'React',
+        name: 'React/Next',
         level: 10,
       },
       {
-        name: 'Vue',
+        name: 'Razor/Blazor',
+        level: 10,
+      },
+      {
+        name: 'Vue/Nuxt',
         level: 9,
       },
       {
-        name: 'Angular',
+        name: 'Angular/Angular.JS',
         level: 9,
-      }
+      },
     ],
   },
   {
-    name: 'Game Development',
+    name: 'GameFi Development',
     skills: [
       {
         name: 'Unity3D',
         level: 10,
       },
       {
-        name: 'Unreal Engine',
+        name: 'Play2Earn',
         level: 8,
       },
       {
-        name: 'three.js',
+        name: 'CryptoCurrency',
+        level: 8,
+      },
+      {
+        name: 'NFTs',
         level: 8,
       }
     ],
@@ -204,53 +214,53 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Callsign',
-    description: 'Introducing a new era in passive authentication, fraud prevention and intelligence.',
-    url: 'https://www.callsign.com/',
+    title: 'Tesora Financial',
+    description: 'Tesora International. Financial Services. Financial and technological platform ready to offer the best tools and assessments for businesses and entrepreneurs.',
+    url: 'https://tesorafinancial.com/',
     image: porfolioImage1,
   },
   {
-    title: 'Mettle Tech',
-    description: 'We are Mettle tech - a one stop solution for Enterprise level software, applications and AI/ML solutions.',
-    url: 'https://mettletech.co/',
+    title: 'TePe USA',
+    description: 'On the TePe corporate website you can find information about odontology, research and our management team.',
+    url: 'https://www.tepeusa.com/',
     image: porfolioImage2,
   },
   {
-    title: 'Kanon Exchange',
-    description: 'Kanon Exchange is the native marketplace and NFT minting platform for the Synesis One ecosystem.',
-    url: 'https://www.kanon.exchange',
+    title: 'Lets Use Data',
+    description: 'Lets Use Data to Improve your Learning Experience.',
+    url: 'https://letsusedata.com/',
     image: porfolioImage3,
   },
   {
-    title: 'Synesis One',
-    description: 'Synesis One is a data crowdsourcing platform where anyone can earn $SNS by completing micro-tasks that train AI.',
-    url: 'https://www.synesis.one',
+    title: 'Bell Boy System',
+    description: 'Bell Boy beta system is free to use single platform smart room services system that offers high-end 5-star luxury hotel services for both renters and hosts.',
+    url: 'https://app.bell-boy.com/',
     image: porfolioImage4,
   },
   {
-    title: 'Telmie',
-    description: 'Telmie is an all-in-one platform and bespoke matching service that combines the best of online, video, and face-to-face learning.',
-    url: 'https://www.telmie.com/',
+    title: 'Dorm Mom',
+    description: 'Provides Laundry Services, Grocery Delivery, Apartment and Dorm Room Cleaning to College Students across the United States at very reasonable rates.',
+    url: 'https://dormmom.com/',
     image: porfolioImage5,
   },
   {
-    title: 'Calahex',
-    description: 'Caribbean and Latin America Hybrid Exchange Platform using ERC20 tokens - Centralized part and Decentralized part.',
-    url: 'https://www.calahex.com',
+    title: 'Dorm Mom',
+    description: 'Provides Laundry Services, Grocery Delivery, Apartment and Dorm Room Cleaning to College Students across the United States at very reasonable rates.',
+    url: 'https://dormmom.com/',
     image: porfolioImage6,
   },
   {
-    title: 'LearnBot',
-    description: 'Developing language learning products that are innovative, educational and entertaining.',
-    url: 'https://www.iedutainments.com/',
+    title: 'Dorm Mom',
+    description: 'Provides Laundry Services, Grocery Delivery, Apartment and Dorm Room Cleaning to College Students across the United States at very reasonable rates.',
+    url: 'https://dormmom.com/',
     image: porfolioImage7,
   },
   {
-    title: 'Nokri Job Portal',
-    description: 'Over 1 million interactions, 50,000 success stories Make yours now. Search Jobs Apply Job Now.',
-    url: 'https://jobs.nokriwp.com/',
+    title: 'Dorm Mom',
+    description: 'Provides Laundry Services, Grocery Delivery, Apartment and Dorm Room Cleaning to College Students across the United States at very reasonable rates.',
+    url: 'https://dormmom.com/',
     image: porfolioImage8,
-  }
+  },
 ];
 
 /**
@@ -258,8 +268,8 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'March 2017',
-    location: 'University of Warsaw',
+    date: 'April 2014',
+    location: 'Texas State University',
     title: 'Bachelor of Computer Science',
     content: <p>When I was a student, I tried to get skills such as computer science, math and statistics to become a good software engineer.</p>,
   }
@@ -267,91 +277,166 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'January 2022 - December 2022',
-    location: 'Mettle',
-    title: 'Full Stack developer',
+    date: 'July 2021 - December 2022',
+    location: 'Tesora Financial, US, Remote',
+    title: 'Full Stack Developer',
     content: (
       <ul className="list-disc">
         <li>
-          Contributed to the development of Mettle, a standalone SME challenger bank launched by RBS that provides a current account, instant invoicing, and the ability to add receipts to transactions and track expenses from a mobile app.
+          Developed frontend using React and admin-panel using Angular.
         </li>
         <li>
-          Extended and maintained existing and created new microservices which fit the event sourcing architecture of the Mettle platform.
+          Used Redux(Thunk) and Ngrx for the flex pattern and selected styled components and Material UI for styling.
         </li>
         <li>
-          Added features to the React Native mobile banking application.
+          Added mint, transfer logic with Smart contract base on ERC721 with Solidity using Truffle.
         </li>
         <li>
-          Migrated the event stream to AVRO so we could implement continuous deployment.
+          Created RESTful endpoints using Asp.net Core Web API and PostgreSQL hosted on the AWS.
         </li>
         <li>
-          Extended the automated test suite by introducing consumer-driven contract tests (Pact).
+          Used FluentValidation, Cronos, Nethereum and Swashbuckle packages for backend development.
         </li>
         <li>
-          Created an interactive dashboard to track business and team OKRs.
+          Hosted backend using AWS Elastic Beanstalk and set CI/CD on the Azure DevOps.
+        </li>
+        <li>
+          Implemented SSO using own company's third party API and used OpenId nuget package for authication.
+        </li>
+        <li>
+          Using IPFS and infra for NFT minting and implemented auction, bid, create and offer login in backend.
         </li>
       </ul>
     ),
   },
   {
-    date: 'October 2019 - December 2021',
-    location: 'Callsign',
-    title: 'Full Stack Java developer',
+    date: 'November 2019 - June 2021',
+    location: 'TePe USA, US, Remote',
+    title: 'Full Stack Developer',
     content: (
       <ul className="list-disc">
         <li>
-          Fully-involved in the architecture, design, and development of new products and features.
+          Used React JS for creating reusable UI components and have chosen Material UI for CSS styling.
         </li>
         <li>
-          Wrote a new, modern version of the Callsign dashboard from scratch in React. I managed to phase out the old version of the product iteratively by working closely with product designers to rethink and redesign features and move them to the modern view.
+          Implemented Auth0 and html2canvas package for the frontend.
         </li>
         <li>
-          Created an extended version of the Callsign Admin REST API which provides a standard interface for onboarding organizations and users into Callsign.
+          Created Menus and Drawer component by using Typescript.
         </li>
         <li>
-          Contributed to Callsign On Premise (OP). We were tasked to extract part of the platform to allow deploying it on clients’ premises so that enterprises are in control of their transactional data.
+          Analyzed code quality and performance with jsHint and YSlow.
+        </li>
+        <li>
+          Frontend project hosting using DigitalOcean and set CI/CD on the Azure DevOps.
+        </li>
+        <li>
+          Used MS SQL Server and EF 3.1.5 for database management.
+        </li>
+        <li>
+          Choosed Repository pattern for development and follow SDLC pattern.
+        </li>
+        <li>
+          Implemented Swashbuckle nuget package for SwaggerUI for API endpoints using Asp.Net Core Web API.
+        </li>
+        <li>
+          Used AutoMapper Nuget packaget to match Model and ViewModel.
+        </li>
+        <li>
+          Integrated backend testcases with xUnit and nUnit using Mocking Nuget Packages.
         </li>
       </ul>
     ),
   },
   {
-    date: 'June 2017 - September 2019',
-    location: 'Ministry of Justice, UK',
-    title: 'Full Stack developer',
+    date: 'April 2017 - October 2019',
+    location: 'letsusedata, US, Remote',
+    title: 'ASP.NET Core Developer',
     content: (
       <ul className="list-disc">
         <li>
-          Ensured the divorce microservices fit in the overall high-level design of the reform program. This involved regular meetings with the program architects and communicating design decisions with team members.
+        Developed frontend with using Angular, Html/CSS, JQuery and Bootstrap.
         </li>
         <li>
-          Created low-level design documents, selecting the right tools and technologies, and made sure that the software released to the public was as robust and secure as it could be.
+        Developed backend using ASP.NET core and use Entity framework for database control.
         </li>
         <li>
-          Removed technical impediments and owned the overall sprint outcome.
+        Developed many compliers using C# like C# compiler, Excel compiler, Java Complier and so on.
         </li>
         <li>
-          Created new and extended existing microservices to deliver features to citizens, government officials, and solicitors.
+        Implementd CI/CD on the Azure DevOps and used OpenId and Microsoft, Google SSO with JWT token.
         </li>
         <li>
-          Led the digital divorce team.
+        Used Entity framework core for database control and use SwashBuckle, FluentValidation, AutoMapper Nuget packages.
+        </li>
+        <li>
+        Implementd Domain Driven Design Pattern and SendGrid, Twilio SMS services.
         </li>
       </ul>
     ),
   },
   {
-    date: 'May 2016 - Apr 2017',
-    location: 'Self-Employed & Remote, Freelance',
-    title: 'Full Stack developer',
+    date: 'April 2015 - Febrary 2017',
+    location: 'Bell Boy System, US, Remote',
+    title: 'ASP.NET Core Developer',
     content: (
       <ul className="list-disc">
         <li>
-          Worked on 4+ projects using Spring frameworks, MERN & MEAN Stack, including the website development from the scratch.
+        Developed frontend using Angular, HTML/CSS/JavaScript and processed request and response with using ajax.
         </li>
         <li>
-          Developed the website, integrated with full-text search engines such as Solr
+        Used code-first design pattern and EF6.0, Firebase, MS SQL Server for database management.
         </li>
         <li>
-          Designed, architected, and implemented scalable cloud-based web applications using AWS, Microservices & GCP, etc.
+        Implemented real time chat server for chat and used MVVM pattern for backend development.
+        </li>
+        <li>
+        Used repository pattern for backend development and created more than 10 services.
+        </li>
+        <li>
+        Used Twilio, Smtp nuget package for client service and swashbuckle package for API development.
+        </li>
+        <li>
+        Integrated Payment process with bank account and used Repository pattern.
+        </li>
+        <li>
+        Followed SDLC for development and xUnit, nUnit for test cases.
+        </li>
+      </ul>
+    ),
+  },
+  {
+    date: 'September 2014 - Febrary 2015',
+    location: 'Dorm Mom, US, Remote',
+    title: 'ASP.NET Core Developer',
+    content: (
+      <ul className="list-disc">
+        <li>
+        Developed frontend using Angular, HTML/CSS/JavaScript and processed request and response with using ajax.
+        </li>
+        <li>
+        Choosed MS SQL server and Entity framework core for database control.
+        </li>
+        <li>
+        Developed backend using Asp.Net core with .Net version 5.1.
+        </li>
+        <li>
+        Integrated payment processing such as Paypal, Stripe.
+        </li>
+        <li>
+        Use Azure DevOps for development and use github for source control.
+        </li>
+        <li>
+        Implemented SSO such as google auth, facebook oauth, apple auth and twitter auth.
+        </li>
+        <li>
+        Used Mailchimp and SendGrid for client's performance.
+        </li>
+        <li>
+        Upgrade .Net Versions and nuget packages.
+        </li>
+        <li>
+        Launched project successfully and earn $1M per year.
         </li>
       </ul>
     ),
@@ -392,8 +477,8 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'superdevstar1218@gmail.com',
-      href: 'mailto:superdevstar1218@gmail.com',
+      text: 'topten1004@outlook.com',
+      href: 'mailto:topten1004@outlook.com',
     },
     // {
     //   type: ContactType.Location,
@@ -407,8 +492,8 @@ export const contact: ContactSection = {
     // },
     {
       type: ContactType.Github,
-      text: 'superdevstar1218',
-      href: 'https://github.com/superdevstar1218',
+      text: 'topten1004',
+      href: 'https://github.com/topten1004',
     },
   ],
 };
