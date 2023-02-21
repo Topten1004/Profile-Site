@@ -70,7 +70,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a US based <strong className="text-stone-100">Full Stack .NET Engineer</strong> with 8+ years of experience leading both back-end & front-end development, and performing quality
+        I'm a US based <strong className="text-stone-100">Full Stack .NET Engineer</strong> with 8+ years of experience leading both Microsoft Technology and performing quality
         assurance.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
