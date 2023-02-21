@@ -16,15 +16,12 @@ import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.png';
 import porfolioImage2 from '../images/portfolio/portfolio-2.png';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.png';
+import porfolioImage4 from '../images/portfolio/portfolio-4.png';
+import porfolioImage5 from '../images/portfolio/portfolio-5.png';
+import porfolioImage6 from '../images/portfolio/portfolio-6.png';
+import porfolioImage8 from '../images/portfolio/portfolio-8.png';
+
 import profilepic from '../images/profilepic.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -123,10 +120,31 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
+    name: 'Frontend development',
+    skills: [
+      {
+        name: 'React/Next',
+        level: 10,
+      },
+      {
+        name: 'Razor/Blazor',
+        level: 10,
+      },
+      {
+        name: 'Vue/Nuxt',
+        level: 9,
+      },
+      {
+        name: 'Angular/Angular.JS',
+        level: 9,
+      },
+    ],
+  },
+  {
     name: 'Backend development',
     skills: [
       {
-        name: 'Asp.Net/Asp.Net Core/Asp.Net MVC/Asp.Net Core Web API',
+        name: 'Asp.Net Core/Asp.Net MVC/Asp.Net Core Web API',
         level: 10,
       },
       {
@@ -141,6 +159,27 @@ export const skills: SkillGroup[] = [
         name: 'Python/Django/Flask',
         level: 9,
       },
+    ],
+  },
+  {
+    name: 'Desktop Applications',
+    skills: [
+      {
+        name: 'Windows Forms',
+        level: 9,
+      },
+      {
+        name: 'WPF',
+        level: 8,
+      },
+      {
+        name: 'MAUI',
+        level: 8,
+      },
+      {
+        name: 'UWP',
+        level: 8,
+      }
     ],
   },
   {
@@ -165,35 +204,14 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Blockchain',
     skills: [
       {
-        name: 'React/Next',
-        level: 10,
+        name: 'Smart Contracts',
+        level: 8,
       },
       {
-        name: 'Razor/Blazor',
-        level: 10,
-      },
-      {
-        name: 'Vue/Nuxt',
-        level: 9,
-      },
-      {
-        name: 'Angular/Angular.JS',
-        level: 9,
-      },
-    ],
-  },
-  {
-    name: 'GameFi Development',
-    skills: [
-      {
-        name: 'Unity3D',
-        level: 10,
-      },
-      {
-        name: 'Play2Earn',
+        name: 'Ethereum',
         level: 8,
       },
       {
@@ -206,7 +224,27 @@ export const skills: SkillGroup[] = [
       }
     ],
   },
- 
+  {
+    name: 'GameFi development',
+    skills: [
+      {
+        name: 'Unity',
+        level: 9,
+      },
+      {
+        name: 'Cocos',
+        level: 8,
+      },
+      {
+        name: 'Play2Earn',
+        level: 7,
+      },
+      {
+        name: 'Multiplayer',
+        level: 6,
+      }
+    ],
+  },
 ];
 
 /**
@@ -214,51 +252,45 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'Lets Use Data',
+    description: 'Lets Use Data to Improve your Learning Experience.',
+    url: 'https://letsusedata.com/',
+    image: porfolioImage1,
+  },
+  {
+    title: 'Dorm Mom',
+    description: 'Provides Laundry Services, Grocery Delivery, Apartment and Dorm Room Cleaning to College Students across the United States at very reasonable rates.',
+    url: 'https://dormmom.com/',
+    image: porfolioImage3,
+  },
+  {
     title: 'Tesora Financial',
     description: 'Tesora International. Financial Services. Financial and technological platform ready to offer the best tools and assessments for businesses and entrepreneurs.',
     url: 'https://tesorafinancial.com/',
-    image: porfolioImage1,
+    image: porfolioImage5,
   },
   {
     title: 'TePe USA',
     description: 'On the TePe corporate website you can find information about odontology, research and our management team.',
     url: 'https://www.tepeusa.com/',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Lets Use Data',
-    description: 'Lets Use Data to Improve your Learning Experience.',
-    url: 'https://letsusedata.com/',
-    image: porfolioImage3,
+    image: porfolioImage4,
   },
   {
     title: 'Bell Boy System',
     description: 'Bell Boy beta system is free to use single platform smart room services system that offers high-end 5-star luxury hotel services for both renters and hosts.',
     url: 'https://app.bell-boy.com/',
-    image: porfolioImage4,
+    image: porfolioImage2,
   },
   {
-    title: 'Dorm Mom',
-    description: 'Provides Laundry Services, Grocery Delivery, Apartment and Dorm Room Cleaning to College Students across the United States at very reasonable rates.',
-    url: 'https://dormmom.com/',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Dorm Mom',
-    description: 'Provides Laundry Services, Grocery Delivery, Apartment and Dorm Room Cleaning to College Students across the United States at very reasonable rates.',
-    url: 'https://dormmom.com/',
+    title: 'Best Fiends',
+    description: 'Best Fiends is a popular mobile game and media franchise centered around tile-matching gameplay. Since its launch in 2014, the original Best Fiends game has been downloaded almost 100 million times, as of August 2019.',
+    url: 'https://apps.apple.com/us/app/best-fiends-match-3-puzzles/id868013618',
     image: porfolioImage6,
   },
   {
-    title: 'Dorm Mom',
-    description: 'Provides Laundry Services, Grocery Delivery, Apartment and Dorm Room Cleaning to College Students across the United States at very reasonable rates.',
-    url: 'https://dormmom.com/',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Dorm Mom',
-    description: 'Provides Laundry Services, Grocery Delivery, Apartment and Dorm Room Cleaning to College Students across the United States at very reasonable rates.',
-    url: 'https://dormmom.com/',
+    title: 'Learnbots App',
+    description: 'This is Learning app about 101 verbs of 22 countries.',
+    url: 'https://play.google.com/store/apps/details?id=com.education.leanrbot',
     image: porfolioImage8,
   },
 ];
@@ -277,7 +309,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'July 2021 - December 2022',
+    date: 'July 2020 - December 2022',
     location: 'Tesora Financial, US, Remote',
     title: 'Full Stack Developer',
     content: (
@@ -310,7 +342,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'November 2019 - June 2021',
+    date: 'November 2018 - June 2020',
     location: 'TePe USA, US, Remote',
     title: 'Full Stack Developer',
     content: (
@@ -349,7 +381,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'April 2017 - October 2019',
+    date: 'April 2017 - October 2018',
     location: 'letsusedata, US, Remote',
     title: 'ASP.NET Core Developer',
     content: (
@@ -476,20 +508,25 @@ export const contact: ContactSection = {
   description: 'I \'m always ready for you. Thanks',
   items: [
     {
+      type: ContactType.Phone,
+      text: '+12102399081',
+      href: '',
+    },
+    {
       type: ContactType.Email,
       text: 'topten1004@outlook.com',
       href: 'mailto:topten1004@outlook.com',
     },
-    // {
-    //   type: ContactType.Location,
-    //   text: 'Victoria BC, Canada',
-    //   href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    // },
-    // {
-    //   type: ContactType.Instagram,
-    //   text: '@tbakerx',
-    //   href: 'https://www.instagram.com/tbakerx/',
-    // },
+    {
+       type: ContactType.Location,
+       text: 'Weatherford TX, US',
+       href: 'https://www.google.ca/maps/place/Weatherford,+TX/@32.7593, 97.7973z',
+    },
+    {
+       type: ContactType.LinkedIn,
+       text: 'David Ray',
+       href: 'https://www.linkedin.com/in/david-riley-49045a266/',
+    },
     {
       type: ContactType.Github,
       text: 'topten1004',
@@ -502,7 +539,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx' },
+  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/topten10014' },
   { label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker' },
   { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/' },
   { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/' },

@@ -1,7 +1,6 @@
 {
   "name": "react-resume-template",
   "version": "2.0.0",
-  "homepage": "https://topten1004.github.io/Profile-Site",
   "private": true,
   "scripts": {
     "build": "yarn compile && yarn next build",
