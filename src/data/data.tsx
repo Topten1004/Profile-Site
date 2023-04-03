@@ -315,7 +315,7 @@ export const experience: TimelineItem[] = [
     content: (
       <ul className="list-disc">
         <li>
-          Developed frontend using React and admin-panel using Angular.
+          Developed frontend using Angular and admin-panel using React.
         </li>
         <li>
           Used Redux(Thunk) and Ngrx for the flex pattern and selected styled components and Material UI for styling.
@@ -382,33 +382,6 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'April 2017 - October 2018',
-    location: 'letsusedata, US, Remote',
-    title: 'ASP.NET Core Developer',
-    content: (
-      <ul className="list-disc">
-        <li>
-        Developed frontend with using Angular, Html/CSS, JQuery and Bootstrap.
-        </li>
-        <li>
-        Developed backend using ASP.NET core and use Entity framework for database control.
-        </li>
-        <li>
-        Developed many compliers using C# like C# compiler, Excel compiler, Java Complier and so on.
-        </li>
-        <li>
-        Implementd CI/CD on the Azure DevOps and used OpenId and Microsoft, Google SSO with JWT token.
-        </li>
-        <li>
-        Used Entity framework core for database control and use SwashBuckle, FluentValidation, AutoMapper Nuget packages.
-        </li>
-        <li>
-        Implementd Domain Driven Design Pattern and SendGrid, Twilio SMS services.
-        </li>
-      </ul>
-    ),
-  },
-  {
-    date: 'April 2015 - Febrary 2017',
     location: 'Bell Boy System, US, Remote',
     title: 'ASP.NET Core Developer',
     content: (
@@ -423,16 +396,16 @@ export const experience: TimelineItem[] = [
         Implemented real time chat server for chat and used MVVM pattern for backend development.
         </li>
         <li>
-        Used repository pattern for backend development and created more than 10 services.
-        </li>
-        <li>
-        Used Twilio, Smtp nuget package for client service and swashbuckle package for API development.
-        </li>
-        <li>
-        Integrated Payment process with bank account and used Repository pattern.
-        </li>
-        <li>
         Followed SDLC for development and xUnit, nUnit for test cases.
+        </li>
+        <li>
+        Divided backend into 3 logic layers so users can use backend easily.
+        </li>
+        <li>
+        Used Twilio package for sending SMS and LinqToExcel, Syncfusion UI for the document printing.
+        </li>
+        <li>
+        Used CQRS, MediatR and Domain Driven Design pattern for the backend development to optimize the speed of the project.
         </li>
       </ul>
     ),
@@ -462,13 +435,13 @@ export const experience: TimelineItem[] = [
         Implemented SSO such as google auth, facebook oauth, apple auth and twitter auth.
         </li>
         <li>
-        Used Mailchimp and SendGrid for client's performance.
+        Testing the system features and functionalities using unit testing, integration testing, and acceptance testing.
         </li>
         <li>
-        Upgrade .Net Versions and nuget packages.
+        Deploying the system to the production environment using Azure DevOps and Azure App Service.
         </li>
         <li>
-        Launched project successfully and earn $1M per year.
+        Providing technical support and maintenance to the system users, troubleshooting issues, and fixing bugs.
         </li>
       </ul>
     ),
@@ -509,7 +482,7 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Phone,
-      text: '+12102399081',
+      text: '+1 781 530 4078',
       href: '',
     },
     {
