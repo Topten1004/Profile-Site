@@ -41,7 +41,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Matthew Akingbade',
+  title: 'David Riley Resume',
   description: "This is my .Net Full Stack Resume",
 };
 
@@ -66,7 +66,7 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm  Matthew Akingbade.`,
+  name: `I'm  David Riley.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -108,10 +108,10 @@ export const aboutData: About = {
   Working individually and contributing with in team.
   Coordinating with the team and with client.`,
   aboutItems: [
-    {label: 'Location', text: 'Liverpool, United Kingdom', Icon: MapIcon },
-    {label: 'Age', text: '27', Icon: CalendarIcon },
+    {label: 'Location', text: 'Weatherford, Texas', Icon: MapIcon },
+    {label: 'Age', text: '37', Icon: CalendarIcon },
     {label: 'Interests', text: 'Soccer, Gamer', Icon: SparklesIcon },
-    {label: 'Study', text: 'University of Liverpool', Icon: AcademicCapIcon },
+    {label: 'Study', text: 'Texas State University', Icon: AcademicCapIcon },
   ],
 };
 
@@ -300,8 +300,8 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2016',
-    location: 'University of Liverpool',
+    date: 'April 2014',
+    location: 'Texas State University',
     title: 'Bachelor of Computer Science',
     content: <p>When I was a student, I tried to get skills such as computer science, math and statistics to become a good software engineer.</p>,
   }
@@ -310,8 +310,8 @@ export const education: TimelineItem[] = [
 export const experience: TimelineItem[] = [
   {
     date: 'July 2020 - December 2022',
-    location: 'Tesora Financial, Spain, Remote',
-    title: 'Lead Dotnet Developer',
+    location: 'Tesora Financial, US, Remote',
+    title: 'Full Stack Developer',
     content: (
       <ul className="list-disc">
         <li>
@@ -343,8 +343,8 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'November 2018 - June 2020',
-    location: 'TePe, Sweden, Remote',
-    title: 'Full Stack Net Developer',
+    location: 'TePe USA, US, Remote',
+    title: 'Full Stack Developer',
     content: (
       <ul className="list-disc">
         <li>
@@ -382,8 +382,8 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'April 2017 - October 2018',
-    location: 'Bell Boy System, Israel, Remote',
-    title: 'ASP.NET MVC Developer',
+    location: 'Bell Boy System, US, Remote',
+    title: 'ASP.NET Core Developer',
     content: (
       <ul className="list-disc">
         <li>
@@ -411,9 +411,9 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'July 2016 - March 2017',
+    date: 'September 2014 - Febrary 2015',
     location: 'Dorm Mom, US, Remote',
-    title: 'ASP.NET MVC Developer',
+    title: 'ASP.NET Core Developer',
     content: (
       <ul className="list-disc">
         <li>
@@ -482,18 +482,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Phone,
-      text: '+1 914 265 2104',
+      text: '+1 781 530 4078',
       href: '',
     },
     {
       type: ContactType.Email,
-      text: 'MatthewAking0330@outlook.com',
-      href: 'mailto:MatthewAking0330@outlook.com',
+      text: 'topten1004@outlook.com',
+      href: 'mailto:topten1004@outlook.com',
+    },
+    {
+       type: ContactType.Location,
+       text: 'Weatherford TX, US',
+       href: 'https://www.google.ca/maps/place/Weatherford,+TX/@32.7593, 97.7973z',
     },
     {
        type: ContactType.LinkedIn,
-       text: 'Matthew Akingbade',
-       href: 'https://www.linkedin.com/in/matthew-akingbade-ab5326273/',
+       text: 'David Ray',
+       href: 'https://www.linkedin.com/in/david-riley-49045a266/',
     },
     {
       type: ContactType.Github,
