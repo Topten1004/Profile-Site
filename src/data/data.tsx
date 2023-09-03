@@ -41,7 +41,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'David Riley Resume',
+  title: 'Andrii Znaidiuk',
   description: "This is my .Net Full Stack Resume",
 };
 
@@ -66,11 +66,11 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm  David Riley.`,
+  name: `I'm  Andrii Znaidiuk.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a US based <strong className="text-stone-100">Full Stack .NET Engineer</strong> with 8+ years of experience leading both Microsoft Technology and performing quality
+        I'm a Poland based <strong className="text-stone-100">Full Stack .NET Engineer</strong> with 6+ years of experience leading both Microsoft Technology and performing quality
         assurance.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -108,10 +108,10 @@ export const aboutData: About = {
   Working individually and contributing with in team.
   Coordinating with the team and with client.`,
   aboutItems: [
-    {label: 'Location', text: 'Weatherford, Texas', Icon: MapIcon },
-    {label: 'Age', text: '37', Icon: CalendarIcon },
+    {label: 'Location', text: 'Warsaw, Poland', Icon: MapIcon },
+    {label: 'Age', text: '29', Icon: CalendarIcon },
     {label: 'Interests', text: 'Soccer, Gamer', Icon: SparklesIcon },
-    {label: 'Study', text: 'Texas State University', Icon: AcademicCapIcon },
+    {label: 'Study', text: 'Kyiv National University of Culture and Arts', Icon: AcademicCapIcon },
   ],
 };
 
@@ -301,7 +301,7 @@ export const portfolioItems: PortfolioItem[] = [
 export const education: TimelineItem[] = [
   {
     date: 'April 2014',
-    location: 'Texas State University',
+    location: 'Kyiv National University of Culture and Arts',
     title: 'Bachelor of Computer Science',
     content: <p>When I was a student, I tried to get skills such as computer science, math and statistics to become a good software engineer.</p>,
   }
@@ -310,8 +310,8 @@ export const education: TimelineItem[] = [
 export const experience: TimelineItem[] = [
   {
     date: 'July 2020 - December 2022',
-    location: 'Tesora Financial, US, Remote',
-    title: 'Full Stack Developer',
+    location: 'Tesora Financial, Spain, Remote',
+    title: 'Lead .Net Developer',
     content: (
       <ul className="list-disc">
         <li>
@@ -343,8 +343,8 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'November 2018 - June 2020',
-    location: 'TePe USA, US, Remote',
-    title: 'Full Stack Developer',
+    location: 'TePe, Sweden, Remote',
+    title: 'Full Stack .Net Developer',
     content: (
       <ul className="list-disc">
         <li>
@@ -381,7 +381,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'April 2017 - October 2018',
+    date: 'April 2017 - September 2018',
     location: 'Bell Boy System, US, Remote',
     title: 'ASP.NET Core Developer',
     content: (
@@ -411,7 +411,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'September 2014 - Febrary 2015',
+    date: 'June 2015 - March 2017',
     location: 'Dorm Mom, US, Remote',
     title: 'ASP.NET Core Developer',
     content: (
@@ -482,29 +482,29 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Phone,
-      text: '+1 781 530 4078',
+      text: '+48 881 155 881',
       href: '',
     },
     {
       type: ContactType.Email,
-      text: 'topten1004@outlook.com',
-      href: 'mailto:topten1004@outlook.com',
+      text: 'Znaidiukandrii28@gmail.com',
+      href: 'mailto:Znaidiukandrii28@gmail.com',
     },
     {
        type: ContactType.Location,
-       text: 'Weatherford TX, US',
-       href: 'https://www.google.ca/maps/place/Weatherford,+TX/@32.7593, 97.7973z',
+       text: 'Warsaw , Poland',
+       href: 'https://www.google.com/maps/place/Warsaw,+Poland',
     },
     {
        type: ContactType.LinkedIn,
-       text: 'David Ray',
-       href: 'https://www.linkedin.com/in/david-riley-49045a266/',
+       text: 'Andrii Znaidiuk',
+       href: 'https://www.linkedin.com/in/andrii-znaidiuk-706800276/',
     },
     {
       type: ContactType.Github,
       text: 'topten1004',
       href: 'https://github.com/topten1004',
-    },
+    }
   ],
 };
 
