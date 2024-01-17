@@ -41,7 +41,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Andrii Znaidiuk',
+  title: 'Ruslan Melushev',
   description: "This is my .Net Full Stack Resume",
 };
 
@@ -66,7 +66,7 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm  Andrii Znaidiuk.`,
+  name: `I'm  Ruslan Melushev.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -108,10 +108,10 @@ export const aboutData: About = {
   Working individually and contributing with in team.
   Coordinating with the team and with client.`,
   aboutItems: [
-    {label: 'Location', text: 'Warsaw, Poland', Icon: MapIcon },
+    {label: 'Location', text: 'Krasnodar, Russia', Icon: MapIcon },
     {label: 'Age', text: '29', Icon: CalendarIcon },
     {label: 'Interests', text: 'Soccer, Gamer', Icon: SparklesIcon },
-    {label: 'Study', text: 'Kyiv National University of Culture and Arts', Icon: AcademicCapIcon },
+    {label: 'Study', text: 'Krasnodar State University', Icon: AcademicCapIcon },
   ],
 };
 
@@ -301,7 +301,7 @@ export const portfolioItems: PortfolioItem[] = [
 export const education: TimelineItem[] = [
   {
     date: 'April 2014',
-    location: 'Kyiv National University of Culture and Arts',
+    location: 'Krasnodar State University',
     title: 'Bachelor of Computer Science',
     content: <p>When I was a student, I tried to get skills such as computer science, math and statistics to become a good software engineer.</p>,
   }
@@ -482,23 +482,18 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Phone,
-      text: '+48 881 155 881',
+      text: '+7 996 419 34 17',
       href: '',
     },
     {
       type: ContactType.Email,
-      text: 'Znaidiukandrii28@gmail.com',
-      href: 'mailto:Znaidiukandrii28@gmail.com',
+      text: 'Crazycoding330@gmail.com',
+      href: 'mailto:crazycoding330@gmail.com',
     },
     {
        type: ContactType.Location,
-       text: 'Warsaw , Poland',
-       href: 'https://www.google.com/maps/place/Warsaw,+Poland',
-    },
-    {
-       type: ContactType.LinkedIn,
-       text: 'Andrii Znaidiuk',
-       href: 'https://www.linkedin.com/in/andrii-znaidiuk-706800276/',
+       text: 'Krasnodar , Russia',
+       href: 'https://www.google.com/maps/place/Krasnodar,+Russia',
     },
     {
       type: ContactType.Github,
@@ -512,7 +507,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/topten10014' },
+  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/topten1004' },
   { label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker' },
   { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/' },
   { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/' },
